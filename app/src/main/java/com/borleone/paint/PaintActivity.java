@@ -76,6 +76,8 @@ public class PaintActivity extends View {
         }
     }
 
+    //Sample push
+
     private void touch_up() {
         mPath.lineTo(mX, mY);
         mCanvas.drawPath(mPath, mPaint);
